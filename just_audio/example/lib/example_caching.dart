@@ -25,7 +25,7 @@ class MyAppState extends State<MyApp> with WidgetsBindingObserver {
   final _player = AudioPlayer();
   final _audioSource = LockCachingAudioSource(Uri.parse(
     // Supports range requests:
-    "A Veeeeeeeeeeeeery Looooooooooooong Url (maybe over 256 chars, I can't provide it here because it's my private link)",
+    "A Veeeeeeeeeeeeery Looooooooooooong Url With A Dot . (maybe over 256 chars, I can't provide mine here because it's my private link)",
     // Doesn't support range requests:
     //"https://filesamples.com/samples/audio/mp3/sample4.mp3",
   ));
